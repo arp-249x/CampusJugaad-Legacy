@@ -72,7 +72,7 @@ sequenceDiagram
         API-->>TM: Error: Recharge First
     end
 
-    Note over H, DB: Phase 2: The Race (Feed Logic)
+    Note over H, DB: Phase 2: The Feed Logic
     H->>API: GET /feed (Shows only OPEN tasks)
     H->>API: POST /accept-task
     
@@ -89,9 +89,8 @@ sequenceDiagram
     end
 
     Note over H, DB: Phase 3: Completion OR Refund
-    
-    alt Hero Enters Valid OTP
-        H->>API: POST /verify-otp
+    H->>API: POST /verify-otp
+    alt Hero Enters Valid OTP        
         DB->>DB: Update { status: "COMPLETED", escrow_amt: 0 }
         DB->>DB: $inc: { wallet: +X } (Credit Hero)
         API-->>H: "Payment Received!"
