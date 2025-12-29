@@ -72,7 +72,6 @@ While others have free time but no way to monetize it. Existing platforms cannot
 
 ### 1. Advanced Marketplace Engine
 * **Dynamic Bidding Wars:** Moving beyond fixed prices. "Heroes" can bid higher or lower based on difficulty (e.g., "I'll print it for ₹40, but I need ₹10 extra for rain"). Task Masters can then select the best candidate based on price and rating.
-* **Instant Revocation:** Mistake in the description? Changed your mind? Task Masters will be able to cancel an `OPEN` quest instantly and get a 100% wallet refund as long as no Hero has accepted it yet.
 ### 2. Upgrade for Community Justice
 * **Dispute Resolution Center:** A dedicated dashboard where users can upload proof (photos/chats) in case of a conflict. A "Jury System" (admins) will have access to review and resolve these edge cases.
 ### 3. Scaling & Performance
