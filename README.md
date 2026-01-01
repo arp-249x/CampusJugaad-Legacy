@@ -12,6 +12,7 @@ While others have free time but no way to monetize it. Existing platforms cannot
 **Campus Jugaad** is a closed-loop, secure marketplace designed exclusively for university campuses. It transforms the informal economy into a tech-driven system where students can outsource tasks to verified peers ("Heroes") safely.
 
 ##  Key Features
+Ankur 
 
 ###  The Gamified Experience
 * **Gamified Quest System:** Tasks aren't just chores; they are *"Quests"* with specific bounties, deadlines, and urgency levels (Low/Medium/Urgent).
